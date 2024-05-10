@@ -31,11 +31,7 @@ if [[ -z $input_file ]]; then
   input_file=$i
 fi
 
-echo "files = $files"
-echo "input_file = $input_file"
-echo "staged_only = $staged_only"
-
-if [[ $staged_only == "true" ]]; then
+if [[ $staged == "true" ]]; then
   filepaths=$(git diff --staged --name-only --diff-filter=AM | grep -E '.+\.(ts|tsx)$')
 else
   filepaths=$(node $(dirname $0)/extract-files.js)
