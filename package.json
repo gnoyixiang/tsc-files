@@ -1,0 +1,16 @@
+{
+  "name": "tsc-files",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "module": "./bin/index.js",
+  "scripts": {
+    "preview": "pnpm run build && ./bin/main.sh",
+    "build": "./build.sh",
+    "tsc": "npx ts-node ./src/tsc.ts"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
