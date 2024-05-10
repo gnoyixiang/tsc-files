@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "module": "./bin/index.js",
+  "module": "./bin/main.sh",
   "scripts": {
     "preview": "pnpm run build && ./bin/main.sh",
     "build": "./build.sh",
