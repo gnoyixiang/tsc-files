@@ -5,7 +5,7 @@ show_help() {
   echo "Options:"
   echo "  -f, --files         comma separated file paths"
   echo "  -i, --input_file    path to input file containing file paths"
-  echo "  -s, --staged_only   only check staged files"
+  echo "  -s, --staged        only check staged files"
   # Add more options and descriptions as needed
   exit 0
 }

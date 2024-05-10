@@ -1,5 +1,5 @@
 {
-  "name": "tsc-x",
+  "name": "tsc-only",
   "private": true,
   "version": "0.0.0",
   "type": "module",
